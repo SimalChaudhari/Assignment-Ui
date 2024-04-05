@@ -1,0 +1,68 @@
+.heroSection {
+    background-color: var(--back-color);
+    background-attachment: fixed;
+  }
+  
+  .mainText h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px var(--main-color);
+  }
+  .mainText p {
+    font-weight: 600;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .secondText p {
+    font-weight: 600;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    word-spacing: 0.1rem;
+  }
+  
+  .mainButton {
+    width: 220.09px;
+    height: 70.4px;
+    padding: 15.5px 27.09px 15.9px 26px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 1;
+    background-color: var(--white-color);
+    color: var(--main-color);
+    box-shadow: 4px 4px 0px var(--main-color);
+    font-weight: 900;
+    transition: all 0.5s ease;
+    font-size: 1.4rem;
+  }
+  
+  .mainButton:hover {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    box-shadow: 4px 4px 0px var(--white-color);
+  }
+  .secondSection {
+    background-color: var(--back2-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+  }
+  
+  /* responsive */
+  
+  @media (min-width: 1024px) {
+    .secondText h1 {
+      line-height: 3.4rem;
+      word-spacing: 1rem;
+      font-size: 1.3rem;
+      font-size: 3rem;
+    }
+  
+    .secondSection {
+        background-image: url("../../../assets/images/Group.png");
+    }
+  }
+  

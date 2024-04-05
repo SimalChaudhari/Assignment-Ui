@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+:root {
+  --main-color: #896af9;
+  --back2-color: #fff9e6;
+  --back-color: #ab95f9;
+  --white-color: #fff;
+  --box-color: #f1edfe;
+  --gray-color: #838383;
+  --border-color: #BFB8D7;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* ScrollBar */
+/* Track */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 5px;
+}

@@ -1,0 +1,97 @@
+<div>
+    <div class="heroSection flex justify-center items-center">
+      <div class="container mx-auto">
+        <app-header></app-header>
+        <div
+          class="mainSection flex flex-col items-center text-center lg:px-0 px-4 lg:py-12 lg:mb-10 mb-10"
+        >
+          <div class="mainText container mx-auto lg:px-96 px-4 lg:py-12 py-10">
+            <h1 class="text-4xl font-bold text-white py-7">
+              Discover the magic of our surprise box
+            </h1>
+            <p class="text-lg text-white py-2">
+              Unleash your child's curiosity with our educational subscription box
+              <br />
+              filled with fun and learning.
+            </p>
+            <button class="mainButton" (click)="redirectToSubscription()">Subscribe Now</button>
+          </div>
+          <img src="../assets/images/MainImg.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Second Section -->
+    <div class="secondSection flex justify-center items-center text-black">
+      <div class="container mx-auto">
+        <div
+          class="mainSection flex flex-col items-center text-center lg:py-12 lg:mb-10 mb-10"
+        >
+          <div class="secondText container mx-auto lg:px-96 px-4 lg:py-12 py-10">
+            <p>Discover</p>
+            <h1 class="text-4xl font-bold py-7">
+              How It Works: Subscribe and Receive Your Surprise Box
+            </h1>
+            <p class="text-lg py-2">
+              Subscribe to our surprise subscription box and give your child the
+              gift of learning. Each month, we curate a box filled with
+              educational materials tailored to your child's age and interests.
+            </p>
+          </div>
+  
+          <!-- Card -->
+          <div
+            class="card flex flex-col items-center gap-6 lg:flex-row lg:justify-between justify-center px-4 lg:px-0"
+          >
+            <div class="card-item flex flex-col items-center lg:px-10">
+              <img
+                src="../assets/images/sub.png"
+                alt="sub"
+                class="w-24 h-24 mx-auto"
+              />
+              <h3 class="text-lg font-bold lg:text-2xl py-1">Step 1:</h3>
+              <h2 class="text-xl font-bold lg:text-3xl py-1">Subscribe</h2>
+              <p class="text-base py-4">
+                Select a subscription plan that suits your child's learning needs
+                and preferences.
+              </p>
+            </div>
+            <div class="card-item flex flex-col items-center lg:px-10">
+              <img
+                src="../assets/images/pen.png"
+                alt="pen"
+                class="w-24 h-24 mx-auto"
+              />
+              <h3 class="text-lg font-bold lg:text-2xl py-1">Step 2:</h3>
+              <h2 class="text-xl font-bold lg:text-3xl py-1">Personalize Your Box</h2>
+              <p class="text-base py-4">
+                Tell us about your child's age, interests, and learning goals, and
+                we'll customize their surprise box accordingly.
+              </p>
+            </div>
+            <div class="card-item flex flex-col items-center lg:px-10">
+              <img
+                src="../assets/images/box.png"
+                alt="box"
+                class="w-24 h-24 mx-auto"
+              />
+              <h3 class="text-lg font-bold lg:text-2xl py-1">Step 3:</h3>
+              <h2 class="text-xl font-bold lg:text-3xl py-1">Receive Your Surprise Box</h2>
+              <p class="text-base py-4">
+                Sit back and relax as your child eagerly awaits the arrival of
+                their monthly surprise box filled with engaging learning
+                materials.
+              </p>
+            </div>
+          </div>
+          <div class="lg:mt-16 mt-7">
+  
+            <button class="mainButton" (click)="redirectToSubscription()">Subscribe Now</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+
+  </div>
+  
