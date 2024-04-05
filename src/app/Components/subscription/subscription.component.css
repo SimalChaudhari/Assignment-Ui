@@ -1,0 +1,123 @@
+.subscriptionSection {
+  background-image: url("../../../assets/images/SubBack.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-attachment: fixed;
+}
+
+.subscrib {
+  background-color: var(--white-color);
+  border-radius: 30px 30px 0 0;
+  padding: 2rem; /* Adjust padding as needed */
+  border-left: 2px solid var(--border-color);
+  border-top: 2px solid var(--border-color);
+  border-right: 2px solid var(--border-color);
+  border-bottom: 0px solid var(--border-color);
+}
+
+.summary {
+  background-color: var(--box-color);
+  border-radius: 0 0 30px 30px;
+  padding: 2rem; /* Adjust padding as needed */
+  border-right: 2px solid var(--border-color);
+  border-left: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  border-top: 0px solid var(--border-color);
+}
+
+input,
+select {
+  border: 2px solid #e5e7eb;
+  padding: 10px;
+  border-radius: 7px;
+}
+.radio {
+  display: flex;
+  align-items: center;
+  border: 2px solid #e5e7eb;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px; /* Add margin between radio buttons */
+}
+
+.radio input[type="radio"] {
+  margin-right: 5px; /* Add spacing between input and label */
+}
+
+.childBtn {
+  padding: 5px 15px;
+  border-radius: 24px;
+  transition: all 0.5s ease;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+}
+
+.childBtn:hover {
+  background-color: var(--box-color);
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.active {
+  background-color: var(--box-color);
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.mystryBox {
+  background-color: var(--white-color);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.mystryBox p {
+  color: var(--gray-color);
+}
+.totalMystry p {
+  color: var(--gray-color);
+}
+
+.subscribnButton {
+  padding: 15.5px 27.09px 15.9px 26px;
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 1;
+  border: 1px solid var(--main-color);
+  background-color: var(--white-color);
+  color: var(--main-color);
+  box-shadow: 4px 4px 0px var(--main-color);
+  font-weight: 900;
+  transition: all 0.5s ease;
+  font-size: 1.2rem;
+}
+
+.subscribnButton:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  box-shadow: 4px 4px 0px var(--box-color);
+  border: 1px solid var(--box-color);
+}
+
+@media (min-width: 1024px) {
+  .subscribnButton {
+    font-size: 1.4rem;
+  }
+
+  .subscrib {
+    border-radius: 30px 0 0 30px;
+    border-left: 2px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+    border-right: 0px solid var(--border-color);
+  }
+
+  .summary {
+    border-radius: 0 30px 30px 0;
+    border-right: 2px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+    border-left: 0px solid var(--border-color);
+  }
+}
